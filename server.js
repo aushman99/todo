@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://bubun:bubun123@boardinfinity.zque7.mongodb.net/B
 const Todo = require("./models/Todo");
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('My Todo App')
 })
 
 app.post('/add', (req, res) => {
